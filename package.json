@@ -1,0 +1,37 @@
+{
+  "name": "react-flash4",
+  "version": "1.0.0",
+  "description": "A react flash component",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/wdjungst/react-flash4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wdjungst/react-flash4"
+  },
+  "scripts": {
+    "build:dev": "NODE_ENV=development webpack",
+    "build:production": "NODE_ENV=production webpack -p",
+    "prepublish": "npm run build:production"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.1"
+  },
+  "author": "djungst",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "styled-components": "^2.2.1"
+  }
+}
